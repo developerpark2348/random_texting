@@ -123,3 +123,8 @@
 .Main_thumb_num {
   font-size: 30px;
 }
+
+.Main_thumb_Btn {
+  background-color: #bcb3c1;
+  outline: none;
+}

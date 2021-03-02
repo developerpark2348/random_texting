@@ -27,7 +27,7 @@ return (
                     </div>
                 </div>
                 <div className="Main_thumb">
-                    <button>추천</button>
+                    <button className="Main_thumb_Btn">추천</button>
                     <div className="Main_thumb_num">
                         추천 수 : 0
                     </div>
