@@ -1,14 +1,20 @@
 import React from 'react';
 import './Main.css';
 import { Navbar } from 'react-bootstrap';
+import { authService } from '../fbase';
 
 function Main() {
+
+    const LogOut = () => {
+        authService.signOut();
+    }
+    
 
 return (
     <div className="body">
         <Navbar className="header">
             <div className="header_text">추천1등 ~ 추천2등 ~</div>
-            <button></button>
+            <button onClick={LogOut}></button>
         </Navbar>
         <Navbar className="Nav">
             <img
