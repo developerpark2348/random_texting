@@ -14,7 +14,8 @@ return (
     <div className="body">
         <Navbar className="header">
             <div className="header_text">추천1등 ~ 추천2등 ~</div>
-            <button onClick={LogOut}></button>
+            <button className="header_LogoutBtn" onClick={LogOut}>로그아웃</button>
+            <button className="header_KakaoBtn" onClick={LogOut}>공유하기</button>
         </Navbar>
         <Navbar className="Nav">
             <img
