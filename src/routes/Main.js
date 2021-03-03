@@ -8,6 +8,7 @@ return (
     <div className="body">
         <Navbar className="header">
             <div className="header_text">추천1등 ~ 추천2등 ~</div>
+            <button></button>
         </Navbar>
         <Navbar className="Nav">
             <img
